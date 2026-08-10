@@ -9,13 +9,31 @@
     "conflict": "Data conflict. The record may already exist.",
     "tooManyRequests": "Too many requests. Please try again in a few minutes.",
     "serverError": "The server is having trouble. Please try again shortly.",
-    "requestFailed": "The request failed."
+    "requestFailed": "The request failed.",
+    "unexpected": "The app hit an unexpected error. Please reload the page."
   },
   "nav": {
     "home": "Home",
     "products": "Products",
     "cart": "Cart",
-    "orders": "Orders"
+    "orders": "Orders",
+    "main": "Main navigation",
+    "openMenu": "Open navigation menu",
+    "backHome": "Back to home"
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Sign up"
+  },
+  "footer": {
+    "tagline": "An online store built on Angular 21 and .NET 8.",
+    "shop": "Shop",
+    "shopLinks": "Shop links",
+    "account": "Account",
+    "accountLinks": "Account links",
+    "support": "Support",
+    "supportLinks": "Support links",
+    "copyright": "© {{year}} Shop. All rights reserved."
   },
   "pages": {
     "home": "Home",
@@ -24,13 +42,19 @@
   },
   "common": {
     "language": "Language",
+    "loading": "Loading",
     "close": "Close",
     "save": "Save",
     "cancel": "Cancel"
   },
   "toast": {
     "langSwitchFailed": "Could not load translations. The language was kept unchanged.",
-    "tooManyRequestsIn": "Too many requests. Try again in {{seconds}} seconds."
+    "tooManyRequestsIn": "Too many requests. Try again in {{seconds}} seconds.",
+    "dismiss": "Dismiss notification: {{text}}"
+  },
+  "meta": {
+    "title": "Shop — Online shopping",
+    "description": "Shop — an online store: fast ordering, secure payment, nationwide delivery."
   },
   "cart": {
     "itemCount": {

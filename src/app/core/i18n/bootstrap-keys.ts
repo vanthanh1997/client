@@ -19,6 +19,7 @@ export const BOOTSTRAP_KEYS = [
   'errors.tooManyRequests',
   'errors.serverError',
   'errors.requestFailed',
+  'errors.unexpected',
 ] as const;
 
 export type BootstrapKey = (typeof BOOTSTRAP_KEYS)[number];

@@ -9,7 +9,8 @@
     "errors.serverError": "Máy chủ đang gặp sự cố. Vui lòng thử lại sau ít phút.",
     "errors.timeout": "Yêu cầu quá thời gian chờ.",
     "errors.tooManyRequests": "Bạn thao tác quá nhanh. Vui lòng thử lại sau ít phút.",
-    "errors.unauthorized": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại."
+    "errors.unauthorized": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+    "errors.unexpected": "Ứng dụng gặp lỗi không mong muốn. Vui lòng tải lại trang."
   },
   "en": {
     "errors.badRequest": "The submitted data is invalid.",
@@ -21,6 +22,7 @@
     "errors.serverError": "The server is having trouble. Please try again shortly.",
     "errors.timeout": "The request timed out.",
     "errors.tooManyRequests": "Too many requests. Please try again in a few minutes.",
-    "errors.unauthorized": "Your session has expired. Please sign in again."
+    "errors.unauthorized": "Your session has expired. Please sign in again.",
+    "errors.unexpected": "The app hit an unexpected error. Please reload the page."
   }
 }
