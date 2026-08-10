@@ -9,6 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
+    "i18n:gen": "node tools/gen-bootstrap.mjs",
     "format": "prettier --write \"src/**/*.{ts,html,css,json}\"",
     "format:check": "prettier --check \"src/**/*.{ts,html,css,json}\""
   },
@@ -22,6 +23,8 @@
     "@angular/forms": "^21.2.0",
     "@angular/platform-browser": "^21.2.0",
     "@angular/router": "^21.2.0",
+    "@ngx-translate/core": "^18.0.0",
+    "@ngx-translate/http-loader": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },

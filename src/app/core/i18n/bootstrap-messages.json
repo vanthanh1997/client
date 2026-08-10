@@ -1,0 +1,26 @@
+{
+  "vi": {
+    "errors.badRequest": "Dữ liệu không hợp lệ.",
+    "errors.conflict": "Dữ liệu bị xung đột. Có thể bản ghi đã tồn tại.",
+    "errors.forbidden": "Bạn không có quyền thực hiện thao tác này.",
+    "errors.network": "Không kết nối được máy chủ. Kiểm tra đường truyền rồi thử lại.",
+    "errors.notFound": "Không tìm thấy dữ liệu bạn yêu cầu.",
+    "errors.requestFailed": "Yêu cầu không thành công.",
+    "errors.serverError": "Máy chủ đang gặp sự cố. Vui lòng thử lại sau ít phút.",
+    "errors.timeout": "Yêu cầu quá thời gian chờ.",
+    "errors.tooManyRequests": "Bạn thao tác quá nhanh. Vui lòng thử lại sau ít phút.",
+    "errors.unauthorized": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại."
+  },
+  "en": {
+    "errors.badRequest": "The submitted data is invalid.",
+    "errors.conflict": "Data conflict. The record may already exist.",
+    "errors.forbidden": "You do not have permission to perform this action.",
+    "errors.network": "Cannot reach the server. Check your connection and try again.",
+    "errors.notFound": "The requested resource was not found.",
+    "errors.requestFailed": "The request failed.",
+    "errors.serverError": "The server is having trouble. Please try again shortly.",
+    "errors.timeout": "The request timed out.",
+    "errors.tooManyRequests": "Too many requests. Please try again in a few minutes.",
+    "errors.unauthorized": "Your session has expired. Please sign in again."
+  }
+}
