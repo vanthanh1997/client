@@ -1,0 +1,41 @@
+{
+  "errors": {
+    "network": "Cannot reach the server. Check your connection and try again.",
+    "timeout": "The request timed out.",
+    "badRequest": "The submitted data is invalid.",
+    "unauthorized": "Your session has expired. Please sign in again.",
+    "forbidden": "You do not have permission to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "conflict": "Data conflict. The record may already exist.",
+    "tooManyRequests": "Too many requests. Please try again in a few minutes.",
+    "serverError": "The server is having trouble. Please try again shortly.",
+    "requestFailed": "The request failed."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "orders": "Orders"
+  },
+  "pages": {
+    "home": "Home",
+    "forbidden": "Access denied",
+    "notFound": "Page not found"
+  },
+  "common": {
+    "language": "Language",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "toast": {
+    "langSwitchFailed": "Could not load translations. The language was kept unchanged.",
+    "tooManyRequestsIn": "Too many requests. Try again in {{seconds}} seconds."
+  },
+  "cart": {
+    "itemCount": {
+      "one": "{{count}} item",
+      "other": "{{count}} items"
+    }
+  }
+}
