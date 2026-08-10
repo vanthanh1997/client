@@ -1,0 +1,25 @@
+
+<div
+  class="toast toast-top toast-end z-[1100] "
+  aria-live="polite"
+  aria-atomic="false"
+  aria-relevant="additions"
+>
+  @for (item of toast.toasts(); track item.id) {
+    <div
+      class="alert"
+      [class]="alertClass(item.kind)"
+      [attr.role]="isUrgent(item.kind) ? 'alert' : 'status'"
+    >
+      <span>{{ item.text }}</span>
+      <button
+        type="button"
+        class="btn btn-ghost btn-xs btn-circle"
+        [attr.aria-label]="'toast.dismiss' | translate: { text: item.text }"
+        (click)="toast.dismiss(item.id)"
+      >
+        ✕
+      </button>
+    </div>
+  }
+</div>

@@ -9,13 +9,31 @@
     "conflict": "Dữ liệu bị xung đột. Có thể bản ghi đã tồn tại.",
     "tooManyRequests": "Bạn thao tác quá nhanh. Vui lòng thử lại sau ít phút.",
     "serverError": "Máy chủ đang gặp sự cố. Vui lòng thử lại sau ít phút.",
-    "requestFailed": "Yêu cầu không thành công."
+    "requestFailed": "Yêu cầu không thành công.",
+    "unexpected": "Ứng dụng gặp lỗi không mong muốn. Vui lòng tải lại trang."
   },
   "nav": {
     "home": "Trang chủ",
     "products": "Sản phẩm",
     "cart": "Giỏ hàng",
-    "orders": "Đơn hàng"
+    "orders": "Đơn hàng",
+    "main": "Điều hướng chính",
+    "openMenu": "Mở menu điều hướng",
+    "backHome": "Quay lại trang chủ"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký"
+  },
+  "footer": {
+    "tagline": "Cửa hàng trực tuyến chạy trên Angular 21 và .NET 8.",
+    "shop": "Cửa hàng",
+    "shopLinks": "Liên kết cửa hàng",
+    "account": "Tài khoản",
+    "accountLinks": "Liên kết tài khoản",
+    "support": "Hỗ trợ",
+    "supportLinks": "Liên kết hỗ trợ",
+    "copyright": "© {{year}} Shop. Bản quyền thuộc về chủ cửa hàng."
   },
   "pages": {
     "home": "Trang chủ",
@@ -24,13 +42,19 @@
   },
   "common": {
     "language": "Ngôn ngữ",
+    "loading": "Đang tải",
     "close": "Đóng",
     "save": "Lưu",
     "cancel": "Huỷ"
   },
   "toast": {
     "langSwitchFailed": "Không tải được bản dịch. Ngôn ngữ giữ nguyên.",
-    "tooManyRequestsIn": "Bạn thao tác quá nhanh. Thử lại sau {{seconds}} giây."
+    "tooManyRequestsIn": "Bạn thao tác quá nhanh. Thử lại sau {{seconds}} giây.",
+    "dismiss": "Đóng thông báo: {{text}}"
+  },
+  "meta": {
+    "title": "Shop — Mua sắm trực tuyến",
+    "description": "Shop — cửa hàng trực tuyến: đặt hàng nhanh, thanh toán an toàn, giao hàng toàn quốc."
   },
   "cart": {
     "itemCount": {
